@@ -8,15 +8,17 @@ personAddress = "Khiali"
 /*
 Never use var becuase of sope problem in js 
 */
-
-
 let value = "10a"
-console.log(typeof(value))
+//console.log(typeof(value))
 let Num = Number(value)
-console.log(typeof(Num))
-console.log(Num)
-
-
+//console.log(typeof(Num))
+//console.log(Num)
 let int = 1;
 let boolInt = Boolean(int);
-console.log(typeof(boolInt))
+//console.log(typeof(boolInt))
+
+//-------Operations
+
+let digit = 18
+let negativeDigit = -digit
+console.log(negativeDigit)
