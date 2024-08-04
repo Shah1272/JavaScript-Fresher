@@ -1,7 +1,7 @@
 console.log("Its my first tuturial of objects")
 // singleton objects are those which are created by constructur like Object.create
 // object literals are below
-const cnic = Symbol();
+const cnic = Symbol('cnic');
 console.log(typeof(cnic))
 let person = {"Name":"Muhammad" , Age:23 , "City":"Gujranwala",
              Gender:"Male", studyDays:['Monday',"Friday"], [cnic]:"34101"}
@@ -12,4 +12,4 @@ console.log(person["City"])
 // let we can add symol which is unique property of an object like cinic
 // person[Symbol("cnic")] = 34101
 
-console.log(typeof(person[cnic]))
+console.log(Object.getOwnPropertySymbols(person))
